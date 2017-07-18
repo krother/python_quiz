@@ -1,0 +1,162 @@
+
+[
+
+{
+    "question": "Was ist Python?",
+    "answers": [
+        "eine Programmiersprache",
+        "eine Programmierumgebung",
+        "ein Betriebssystem",
+        "ein Editor"
+    ]
+},
+
+{
+    "question": "Welche Endung haben Dateien mit Python-Code?",
+    "answers": [
+        ".py", ".pyc", ".python", ".pyf"
+    ]
+},
+
+{
+    "question": "Welche Anweisung fügt das Element 'a' der Liste 'b' hinzu?",
+    "answers": [
+        "b.append(a)", "a.append(b)", "a.append('b')", "append(a, b)"
+    ]
+},
+
+{
+    "question": "Welche Anweisung fügt dem Dictionary 'd' den Schlüssel 'foo' mit dem Wert 'bar' hinzu?",
+    "answers": [
+        "d['foo'] = 'bar'", "d.append('foo', 'bar')", "d{'foo'} = 'bar'", "d.foo = 'bar'"
+    ]
+},
+
+{
+    "question": "Welche Anweisung summiert die Zahlen in der liste:\nzahlen = [1, 2, 3, 999, 21, 13, 91212, 12312312312]",
+    "answers": [
+        "sum(zahlen)", "zahlen.sum()", "zahlen[sum]", "sum[zahlen]"
+    ]
+},
+
+{
+    "question": "Welche Anweisung verbindet die zwei Strings:\na='foo' i b='bar'",
+    "answers": [
+        "a + b", "a ** b", "a.concat(b)", "'a' + 'b'"
+    ]
+},
+
+{
+    "question": "Welches Schlüsselwort kommt in Python nicht vor?",
+    "answers": [
+        "function", "class", "def", "return"
+    ]
+},
+
+{
+    "question": "Wie heisst der Konstruktor einer Klasse?",
+    "answers": [
+        "__init__()", "class", "str()", "def"
+    ]
+},
+
+{
+    "question": "Welches Schlüsselwort kommt in Python nicht vor?",
+    "answers": [
+        "cancel", "finally", "break", "continue"
+    ]
+},
+
+{
+    "question": "Welche Anweisung liefert *keine* Liste zurück:\ndata = [(9, 0), (1, 2), (3, 4)]",
+    "answers": [
+        "max(data, key=lambda a: max(a))",
+        "sorted(data, key=lambda a: a[0], reverse=False)",
+        "filter(lambda a: sum(a) > 5, data)",
+        "min(data, key=lambda a: max(a))"
+    ]
+},
+
+{
+    "question": "Was gibt die folgende Anweisung zurück:\ndata = [(9, 0), (1, 2), (3, 4), (7, 5)]\nprint(min(data, key=lambda a: max(a)))",
+    "answers": [
+        "(9,0)",
+        "(1,2)",
+        "(3,4)",
+        "(7,5)"
+    ]
+},
+
+{
+    "question": "Was gibt die folgende Anweisung aus:\na = '?PDYJTAHNOGNO'\nprint(a[2::2])",
+    "answers": [
+        "DJANGO", "DG", "PYTHON", "pusty string"
+    ]
+},
+
+{
+    "question": "Was ermittelt die Zahl 0?\na = [1, 2, [7, 8, 9], 3, [4, 6, [1, 0]]]",
+    "answers": [
+        "a[4][2][1]", "a[5][3][2]", "a[6][1]", "a[9]"
+    ]
+},
+
+{
+    "question": "Welche Anweisung ist korrekt:\na = 'aBcDeF'",
+    "answers": [
+        "a.upper()", "upper(a)", "a(upper)", "a.upper"
+    ]
+},
+
+{
+    "question": "Wie sieht die Liste nach folgenden Anweisungen aus:\nnasza_lista = ['a','b', 'c']\n nasza_lista.append('z')\nnasza_lista.pop()\nnasza_lista.pop(-2)\nnasza_lista.remove('c')\nprint(nasza_lista)'",
+    "answers": [
+        "['a']", "['b']", "['c']", "['z']"
+    ]
+},
+
+{
+    "question": "Welche Anweisung ist *nicht* korrekt?",
+    "answers": [
+        "import randint",
+        "import random",
+        "from random import random",
+        "from random import randint"
+    ]
+},
+
+{
+    "question": "Wie können wir einer bestehenden Datei Daten hinzufügen?",
+    "answers": [
+        "open(file_name, 'a')",
+        "open(file_name, 'w')",
+        "open(file_name, 'r')",
+        "open(file_name, 'wb')"
+    ]
+},
+
+{
+    "question": "Welches Schlüsselwort erlaubt uns, file.close() auszulassen?",
+    "answers": [
+        "with", "except", "metaclass", "pass"
+    ]
+},
+
+{
+    "question": "Wer hat Python erfunden?",
+    "answers": [
+        "Guido van Rossum",
+        "Linus Torvalds",
+        "Steve Jobs",
+        "Ada Lovelace"
+    ]
+},
+
+{
+    "question": "Was ist pandas?",
+    "answers": [
+        "eine Bibliothek", "eine Funktion", "eine Klasse", "ein Tabelle"
+    ]
+}
+
+]

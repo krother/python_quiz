@@ -1,0 +1,133 @@
+[
+{
+    "question": "Jakie rozszerzenie zwyczajową mają pliki z kodem Pythonowym?",
+    "answers": [
+        ".py", ".pyc", ".python", ".pyf"
+    ]
+},
+
+{
+    "question": "Który kod doda element 'a' do listy 'b'?",
+    "answers": [
+        "b.append(a)", "a.append(b)", "a.append('b')", "append(a, b)"
+    ]
+},
+
+{
+    "question": "Który kod doda klucz 'ala' o wartosci 'kot' do słownika 'd'?",
+    "answers": [
+        "d['ala'] = 'kot'", "d.append('ala', 'kot')", "d{'ala'} = 'kot'", "d.ala = 'kot'"
+    ]
+},
+
+{
+    "question": "Który kod zsumuje wszystkie wartości w liście:\nmoja_list = [1, 2, 3, 999, 21, 13, 91212, 12312312312]",
+    "answers": [
+        "sum(moja_list)", "moja_list.sum()", "moja_list[sum]", "sum[moja_list]"
+    ]
+},
+
+{
+    "question": "Który kod polaczy dwa stringi:\na='ala' i b='ma kota'",
+    "answers": [
+        "a + b", "a ** b", "a.concat(b)", "'a' + 'b'"
+    ]
+},
+
+{
+    "question": "Które słowo kluczowe nie występuje w pythonie?",
+    "answers": [
+        "function", "class", "def", "return"
+    ]
+},
+
+{
+    "question": "Podaj nazwa metody konstruktora w klasie:",
+    "answers": [
+        "__init__()", "class", "str()", "def"
+    ]
+},
+
+{
+    "question": "Które słowo kluczowe nie występuje w pythonie?",
+    "answers": [
+        "cancel", "finally", "break", "continue"
+    ]
+},
+
+{
+    "question": "które polecenie NIE zwróci listy:\ndata = [(9, 0), (1, 2), (3, 4)]",
+    "answers": [
+        "max(data, key=lambda a: max(a))",
+        "sorted(data, key=lambda a: a[0], reverse=False)",
+        "filter(lambda a: sum(a) > 5, data)",
+        "min(data, key=lambda a: max(a))"
+    ]
+},
+
+{
+    "question": "Co zwróci to polecenie:\ndata = [(9, 0), (1, 2), (3, 4), (7, 5)]\nprint(min(data, key=lambda a: max(a)))",
+    "answers": [
+        "(9,0)",
+        "(1,2)",
+        "(3,4)",
+        "(7,5)"
+    ]
+},
+
+{
+    "question": "Co wypisze to polecenie:\na = '?PDYJTAHNOGNO'\nprint(a[2::2])",
+    "answers": [
+        "DJANGO", "DG", "PYTHON", "pusty string"
+    ]
+},
+
+{
+    "question": "Jak wydobyć cyfrę 0?\na = [1, 2, [7, 8, 9], 3, [4, 6, [1, 0]]]",
+    "answers": [
+        "a[4][2][1]", "a[5][3][2]", "a[6][1]", "a[9]"
+    ]
+},
+
+{
+    "question": "Jaka jest poprawna składnia:\na = 'aBcDeF'",
+    "answers": [
+        "a.upper()", "upper(a)", "a(upper)", "a.upper"
+    ]
+},
+
+{
+    "question": "Jak będzie wyglądała lista po poleceniach:\nnasza_lista = ['a','b', 'c']\n nasza_lista.append('z')\nnasza_lista.pop()\nnasza_lista.pop(-2)\nnasza_lista.remove('c')\nprint(nasza_lista)'",
+    "answers": [
+        "['a']", "['b']", "['c']", "['z']"
+    ]
+},
+
+{
+    "question": "Która składnia jest niepoprawna?",
+    "answers": [
+        "import randint",
+        "import random",
+        "from random import random",
+        "from random import randint"
+    ]
+},
+
+{
+    "question": "Jeżeli chcemy dopisać do pliku, nie nadpisując jego zawartości, użyjemy?",
+    "answers": [
+        "open(file_name, 'a')",
+        "open(file_name, 'w')",
+        "open(file_name, 'r')",
+        "open(file_name, 'wb')"
+    ]
+},
+
+{
+    "question": "Jakie slowo kuczlowe pozowala nam pominac metode zamykajaca plik - file.close()",
+    "answers": [
+        "with", "except", "metaclass", "pass"
+    ]
+}
+]
+
