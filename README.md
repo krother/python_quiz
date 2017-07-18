@@ -20,7 +20,11 @@ You have 2 minutes to answer the questions.
 
 ## License
 
-MIT License. See LICENSE.TXT for details. The questions may be used under the conditions of CC-BY 4.0
+The code is published under the MIT License. See LICENSE.TXT for details.
+
+The questions may be used under the conditions of CC-BY 4.0.
+
+The original question set was created by Piotr Dyba and modified by Kristian Rother. Source: [https://github.com/pdyba/pythonquestiondb](https://github.com/pdyba/pythonquestiondb)
 
 ## Contact
 
